@@ -1,0 +1,24 @@
+html, body {
+    margin: 0;
+    background-color: green; /* Este es e color de fondo de la pagina*/
+    color: whitesmoke;       /* Este es el color que va a tener todas las letras de la pagina*/
+}
+
+.tittle {
+    text-align: center;        /* Centrar el texto en la pagina*/
+    background-color: black; /* Color del fondo titulo */
+    color: white;            /* Color de las letras */
+    padding: 20px;             /* margen entre las letras*/
+}
+
+.carta {
+    position: relative;       /* Posicion de las imagenes*/
+    width: 150px;             /* Tamanio de las imagenes */
+    left: 100px;              /* Poner las cartas 100px hacia la izquierda*/
+    margin-left: -75px;      /* margen entre las imagenes es de -75 se van a sobreponer*/
+
+}
+
+#jugador-cartas, #computadora-cartas {
+    height: 250px;            /* Espacio entre los titulos Jugador y Cartas*/
+}
